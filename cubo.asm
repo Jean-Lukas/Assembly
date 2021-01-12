@@ -1,6 +1,6 @@
 .data # Diretiva onde se declara variáveis e constantes.
 num:	.asciiz "Digite um número:\n"
-cubo:	.asciiz "O cubo é\n"
+cubo:	.asciiz "O cubo é:\n"
 
 .text			# Diretiva onde vai conter todo o código.
 li $v0, 4		# Preparando o processador pra receber uma string.
